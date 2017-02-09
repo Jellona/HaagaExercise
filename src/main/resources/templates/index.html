@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"> 
+	<head>
+		<title>The Bookstore</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+	
+	<body>
+		<h1>Bookstore search function:</h1>
+			<form action="#" th:action="@{/receipt}" method="get">
+				<p>Title: <input type="text" name="Title"/></p>
+				<p>Author: <input type="text" name="Author"/></p>
+				<p>Year: <input type="text" name="Year"/></p>
+				<p>ISBN: <input type="text" name="ISBN"/></p>
+				<p>Price: <input type="text" name="Price"/></p>
+				<p><input type="submit" value="Submit"/></p>
+				
+			
+			</form>
+	</body>
+</html>
